@@ -45,8 +45,8 @@ formatted according to
 ## Usage
 
 See the examples folder, containing two examples:
- * [Univariate time series]()
- * [Multivariate time series]()
+ * [Univariate time series](https://github.com/uea-machine-learning/sktime-shapelets-forest/blob/master/examples/exampleUni.py)
+ * [Multivariate time series](https://github.com/uea-machine-learning/sktime-shapelets-forest/blob/master/examples/exampleMulti.py)
 	
 ## Citation
 
