@@ -1,0 +1,42 @@
+Metadata-Version: 1.2
+Name: shapeletForest
+Version: 0.1
+Summary: shapeletForest - adaptation to sktime
+Home-page: https://github.com/isakkarlsson/wildboar
+Author: Isak Samsten
+Author-email: isak@samsten.se
+License: GPLv3
+Description: 
+        It provides:
+        
+         * Shapelet tree classification and regression
+         * Random shapelet forest classification and regression
+         * Fast dynamic time warning searching
+         * Fast euclidean distance searching
+        
+        The package is provided under the GPLv3 license.
+        
+Keywords: machine learning,time series distance
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Provides: shapeletForest
+Requires-Python: >=3.4.0
