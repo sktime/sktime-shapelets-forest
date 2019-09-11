@@ -42,21 +42,18 @@ class ShapeletForestClassifier(BaseEstimator, ClassifierMixin):
         self.metric = metric
         self.metric_params = metric_params
         self.random_state = random_state
+        
+    def predict(self, X, check_input=True):
+        return self.classes_[np.argmax(
+            self.predict_proba(X, check_input=check_input), axis=1)]
 
-    def score(self, X, y, sample_weight=None, check_input=True):
+    def predict_proba(self, X, check_input=True):
         # Correct formating of x
         if len(X.iloc[0]) == 1: # UNI
             X = [np.array(X.iloc[i].iloc[0]).tolist() for i in range(0, len(X))]
         else: # MULTI
             X = [[np.array(X.iloc[i].iloc[j]).tolist() for j in range(0, len(X.iloc[i]))] for i in range(0, len(X))]
 
-        return accuracy_score(y, self.predict(X, check_input), sample_weight=sample_weight)
-
-    def predict(self, X, check_input=True):
-        return self.classes_[np.argmax(
-            self.predict_proba(X, check_input=check_input), axis=1)]
-
-    def predict_proba(self, X, check_input=True):
         if check_input:
             X = check_array(X, dtype=np.float64, allow_nd=True, order="C")
 

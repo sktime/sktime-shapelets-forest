@@ -28,3 +28,5 @@ if __name__ == "__main__":
     print("Num timepoints: ", len(X_train.iloc[0].iloc[0]))
     print("Accuracy: ", f.score(X_test, y_test))
     print("Time spent: ", round(time.time() - c))
+
+
