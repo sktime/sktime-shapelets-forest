@@ -44,9 +44,10 @@ formatted according to
 
 ## Usage
 
-See the examples folder, containing two examples:
+See the examples folder, containing three examples:
  * [Univariate time series](https://github.com/uea-machine-learning/sktime-shapelets-forest/blob/master/examples/exampleUni.py)
  * [Multivariate time series](https://github.com/uea-machine-learning/sktime-shapelets-forest/blob/master/examples/exampleMulti.py)
+ * [Integration with sktime](https://github.com/uea-machine-learning/sktime-shapelets-forest/blob/master/examples/examplesktime.py)
 	
 ## Citation
 
